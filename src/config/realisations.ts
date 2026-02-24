@@ -2,10 +2,10 @@ import type { Realisation } from "@/types";
 
 export const realisations: Realisation[] = [
   {
-    id: "sdb-villeurbanne",
+    id: "sdb-cremieu",
     title: "Rénovation salle de bain complète",
     category: "Salle de bain",
-    city: "Villeurbanne",
+    city: "Crémieu",
     description:
       "Transformation d'une salle de bain années 80 en espace moderne avec douche italienne, meuble vasque et miroir LED.",
     beforePrompt:
@@ -15,10 +15,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "cuisine-lyon3",
+    id: "cuisine-bourgoin",
     title: "Réfection plomberie cuisine",
     category: "Plomberie",
-    city: "Lyon 3e",
+    city: "Bourgoin-Jallieu",
     description:
       "Remplacement complet de la tuyauterie et installation d'un évier encastré avec robinet col de cygne.",
     beforePrompt:
@@ -28,10 +28,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "chauffe-eau-caluire",
+    id: "chauffe-eau-morestel",
     title: "Remplacement chauffe-eau",
     category: "Chauffe-eau",
-    city: "Caluire-et-Cuire",
+    city: "Morestel",
     description:
       "Remplacement d'un vieux chauffe-eau rouillé par un ballon thermodynamique classe A.",
     beforePrompt:
@@ -41,10 +41,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "pac-bron",
+    id: "pac-la-tour-du-pin",
     title: "Installation pompe à chaleur",
     category: "Chauffage",
-    city: "Bron",
+    city: "La Tour-du-Pin",
     description:
       "Remplacement d'une vieille chaudière fioul par une pompe à chaleur air-eau compacte.",
     beforePrompt:
@@ -54,10 +54,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "sdb-pmr-lyon6",
+    id: "sdb-pmr-pont-de-cheruy",
     title: "Salle de bain PMR",
     category: "Salle de bain",
-    city: "Lyon 6e",
+    city: "Pont-de-Chéruy",
     description:
       "Adaptation d'une salle de bain pour personne à mobilité réduite avec douche plain-pied et barres d'appui.",
     beforePrompt:
@@ -67,10 +67,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "chaudiere-tassin",
+    id: "chaudiere-lisle-dabeau",
     title: "Remplacement chaudière gaz",
     category: "Chauffage",
-    city: "Tassin-la-Demi-Lune",
+    city: "L'Isle-d'Abeau",
     description:
       "Installation d'une chaudière gaz à condensation dernière génération en remplacement d'un modèle de 20 ans.",
     beforePrompt:
@@ -80,10 +80,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "douche-lyon7",
+    id: "douche-villefontaine",
     title: "Douche italienne sur mesure",
     category: "Salle de bain",
-    city: "Lyon 7e",
+    city: "Villefontaine",
     description:
       "Création d'une douche italienne avec receveur extra-plat, carrelage grand format et niche murale éclairée.",
     beforePrompt:
@@ -93,10 +93,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "plancher-chauffant-ecully",
+    id: "plancher-chauffant-tignieu",
     title: "Installation plancher chauffant",
     category: "Chauffage",
-    city: "Écully",
+    city: "Tignieu-Jameyzieu",
     description:
       "Pose d'un plancher chauffant hydraulique dans une maison en rénovation complète.",
     beforePrompt:
@@ -106,12 +106,12 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "depannage-lyon2",
+    id: "depannage-hieres",
     title: "Réparation fuite urgente",
     category: "Plomberie",
-    city: "Lyon 2e",
+    city: "Hières-sur-Amby",
     description:
-      "Intervention d'urgence pour une fuite sur canalisation d'eau chaude dans un appartement ancien.",
+      "Intervention d'urgence pour une fuite sur canalisation d'eau chaude dans une maison ancienne.",
     beforePrompt:
       "Fuite d'eau importante sur tuyau cuivre sous évier, gouttes d'eau, sol mouillé, urgence, photo réaliste, ratio 4:3",
     afterPrompt:
@@ -119,10 +119,10 @@ export const realisations: Realisation[] = [
     aspectRatio: "4/3",
   },
   {
-    id: "sdb-complete-oullins",
+    id: "sdb-complete-frontonas",
     title: "Rénovation salle de bain luxe",
     category: "Salle de bain",
-    city: "Oullins",
+    city: "Frontonas",
     description:
       "Rénovation haut de gamme avec double vasque, robinetterie laiton brossé et carrelage terrazzo.",
     beforePrompt:

@@ -6,17 +6,17 @@ export const faqGeneral: FAQ[] = [
   {
     question: "Quels sont vos délais d'intervention en urgence ?",
     answer:
-      `Pour les urgences plomberie (fuite d'eau, canalisation bouchée, panne de chaudière), nous intervenons en moins de ${clientConfig.chiffres.delaiIntervention} dans un rayon de ${clientConfig.contact.zoneKm} km autour de ${siteConfig.address.city}. Appelez-nous au ${siteConfig.phone}.`,
+      `Pour les urgences plomberie (fuite d'eau, canalisation bouchée, panne de chaudière), Jimmy intervient en moins de ${clientConfig.chiffres.delaiIntervention} dans un rayon de ${clientConfig.contact.zoneKm} km autour de ${siteConfig.address.city}. Appelez au ${siteConfig.phone}.`,
   },
   {
     question: "Vos devis sont-ils gratuits ?",
     answer:
-      "Oui, tous nos devis sont gratuits et sans engagement. Nous nous déplaçons pour évaluer vos besoins et vous remettons un devis détaillé sous 48h.",
+      "Oui, tous nos devis sont gratuits et sans engagement. Jimmy se déplace pour évaluer vos besoins et vous remet un devis détaillé sous 48h.",
   },
   {
     question: "Êtes-vous assuré ?",
     answer:
-      "Oui, nous disposons d'une assurance décennale et d'une responsabilité civile professionnelle. Vous pouvez nous demander une copie de nos attestations.",
+      "Oui, JD Maintenance et Plomberie dispose d'une assurance décennale et d'une responsabilité civile professionnelle. Vous pouvez demander une copie des attestations.",
   },
   {
     question: "Quels modes de paiement acceptez-vous ?",
@@ -29,7 +29,7 @@ export const faqDepannage: FAQ[] = [
   {
     question: "Intervenez-vous le week-end et les jours fériés ?",
     answer:
-      "Oui, nous intervenons 7 jours sur 7, y compris les jours fériés, pour toutes les urgences plomberie. Un supplément peut s'appliquer pour les interventions en dehors des heures ouvrables.",
+      "Oui, Jimmy intervient 7 jours sur 7, y compris les jours fériés, pour toutes les urgences plomberie. Un supplément peut s'appliquer pour les interventions en dehors des heures ouvrables.",
   },
   {
     question: "Combien coûte un dépannage en urgence ?",
@@ -39,7 +39,7 @@ export const faqDepannage: FAQ[] = [
   {
     question: "Que faire en cas de fuite d'eau en attendant le plombier ?",
     answer:
-      "Coupez immédiatement l'arrivée d'eau générale (vanne d'arrêt), coupez l'électricité dans la zone touchée, épongez l'eau stagnante et contactez-nous au plus vite.",
+      "Coupez immédiatement l'arrivée d'eau générale (vanne d'arrêt), coupez l'électricité dans la zone touchée, épongez l'eau stagnante et contactez Jimmy au plus vite au 07 69 94 95 28.",
   },
 ];
 
@@ -52,7 +52,7 @@ export const faqPlomberie: FAQ[] = [
   {
     question: "Comment détectez-vous les fuites cachées ?",
     answer:
-      "Nous utilisons des équipements professionnels : caméra d'inspection pour les canalisations, détecteur acoustique et thermographie pour les fuites dans les murs ou sous le sol, sans casse.",
+      "Jimmy utilise des équipements professionnels : caméra d'inspection pour les canalisations, détecteur acoustique et thermographie pour les fuites dans les murs ou sous le sol, sans casse.",
   },
 ];
 
@@ -60,17 +60,17 @@ export const faqSalleDeBain: FAQ[] = [
   {
     question: "Combien de temps dure une rénovation de salle de bain ?",
     answer:
-      "En moyenne, une rénovation complète de salle de bain prend entre 1 et 3 semaines selon l'ampleur des travaux. Nous établissons un planning précis dans le devis.",
+      "En moyenne, une rénovation complète de salle de bain prend entre 1 et 3 semaines selon l'ampleur des travaux. Jimmy établit un planning précis dans le devis.",
   },
   {
     question: "Quelles sont les aides pour une salle de bain PMR ?",
     answer:
-      "Selon votre situation, vous pouvez bénéficier de MaPrimeAdapt', des aides de l'ANAH, du crédit d'impôt et des aides de votre caisse de retraite. Nous vous accompagnons dans les démarches.",
+      "Selon votre situation, vous pouvez bénéficier de MaPrimeAdapt', des aides de l'ANAH, du crédit d'impôt et des aides de votre caisse de retraite. Jimmy vous accompagne dans les démarches.",
   },
   {
     question: "Peut-on remplacer une baignoire par une douche italienne ?",
     answer:
-      "Oui, c'est l'un de nos travaux les plus demandés. Nous adaptons l'évacuation, assurons l'étanchéité et posons un receveur extra-plat pour un accès facilité.",
+      "Oui, c'est l'un des travaux les plus demandés. Jimmy adapte l'évacuation, assure l'étanchéité et pose un receveur extra-plat pour un accès facilité.",
   },
 ];
 
@@ -83,7 +83,7 @@ export const faqChauffage: FAQ[] = [
   {
     question: "Combien coûte l'installation d'une pompe à chaleur ?",
     answer:
-      "Le coût varie entre 8 000 et 15 000 euros selon le modèle et la puissance. De nombreuses aides existent : MaPrimeRénov', CEE, éco-prêt à taux zéro. Nous sommes certifiés RGE, condition pour bénéficier des aides.",
+      "Le coût varie entre 8 000 et 15 000 euros selon le modèle et la puissance. De nombreuses aides existent : MaPrimeRénov', CEE, éco-prêt à taux zéro. Contactez Jimmy pour étudier votre éligibilité.",
   },
   {
     question: "Quelle est la durée de vie d'une chaudière gaz ?",

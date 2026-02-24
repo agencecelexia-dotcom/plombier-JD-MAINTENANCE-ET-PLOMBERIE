@@ -14,7 +14,7 @@ import { chauffage, shared } from "@/config/content";
 
 export const metadata: Metadata = generatePageMetadata({
   title: `Chauffagiste ${siteConfig.address.city} | Chaudière, PAC, entretien`,
-  description: `Chauffagiste certifié RGE à ${siteConfig.address.city}. Installation chaudière gaz, pompe à chaleur, plancher chauffant. Entretien annuel et dépannage. Devis gratuit.`,
+  description: `Chauffagiste à ${siteConfig.address.city} et Nord-Isère. Installation chaudière gaz, pompe à chaleur, plancher chauffant. Entretien annuel et dépannage. Devis gratuit.`,
   path: "/chauffage",
 });
 
