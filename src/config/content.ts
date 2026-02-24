@@ -30,11 +30,11 @@ export const shared = {
 // ─── Composants sections ───
 
 export const heroSection = {
-  eyebrow: `Plombier chauffagiste — ${siteConfig.address.city}`,
+  eyebrow: `Plombier chauffagiste — Nord-Isère (38)`,
 };
 
 export const ctaSection = {
-  defaultTitle: "Un projet ? Une urgence ? Contactez-nous maintenant.",
+  defaultTitle: "Un projet ? Une urgence ? Contactez Jimmy maintenant.",
   defaultSubtitle: "",
   ctaPrimary: shared.cta.appelerMaintenant,
   ctaSecondary: shared.cta.demanderDevis,
@@ -58,7 +58,7 @@ export const urgencyProjectCards = {
   },
   project: {
     title: "Je planifie des travaux",
-    subtitle: "Rénovation, installation, remplacement...",
+    subtitle: "Rénovation, installation, remplacement, maintenance...",
     cta: shared.cta.demanderDevis,
   },
 };
@@ -84,12 +84,13 @@ export const contactForm = {
     "Rénovation salle de bain",
     "Chauffage",
     "Chauffe-eau",
+    "Maintenance / Entretien",
     "Autre",
   ],
   rgpd: "J'accepte que mes données soient utilisées pour me recontacter dans le cadre de ma demande. Voir notre politique de confidentialité.",
   success: {
     title: "Demande envoyée !",
-    text: "Nous vous recontactons sous 48h. Pour une urgence, appelez-nous directement.",
+    text: "Jimmy vous recontacte sous 48h. Pour une urgence, appelez directement au 07 69 94 95 28.",
   },
   error: "Une erreur est survenue. Veuillez réessayer.",
 };
@@ -99,13 +100,13 @@ export const contactForm = {
 export const homepage = {
   hero: {
     title: clientConfig.seo.slogan,
-    subtitle: "Fuite d'eau, WC bouché, panne de chaudière ? Devis gratuit sous 48h.",
+    subtitle: "Fuite d'eau, WC bouché, panne de chaudière ? Votre artisan plombier intervient dans tout le Nord-Isère. Devis gratuit sous 48h.",
     ctaSecondaryLabel: shared.cta.demanderDevis,
-    badges: ["Intervention <2h", "Décennale", "Devis gratuit", `${siteConfig.googleRating}/5`],
+    badges: ["Intervention rapide", "Artisan qualifié", "Devis gratuit", `${siteConfig.googleRating}/5`],
   },
   services: {
     title: "Des solutions pour tous vos besoins",
-    subtitle: "De l'urgence au projet de rénovation, notre équipe qualifiée intervient avec professionnalisme.",
+    subtitle: "De l'urgence au projet de rénovation, Jimmy intervient avec professionnalisme dans le Nord-Isère.",
   },
   realisations: {
     title: "Nos réalisations",
@@ -121,13 +122,13 @@ export const homepage = {
 
 export const depannage = {
   hero: {
-    title: `Dépannage plomberie à ${siteConfig.address.city}`,
-    subtitle: "Fuite d'eau, WC bouché, dégât des eaux ? Appelez maintenant.",
-    badges: ["Urgence 24h/24", "Intervention <2h", "7j/7"],
+    title: `Dépannage plomberie — Nord-Isère`,
+    subtitle: "Fuite d'eau, WC bouché, dégât des eaux ? Appelez Jimmy maintenant.",
+    badges: ["Urgence 24h/24", "Intervention rapide", "7j/7"],
   },
   urgences: {
     title: "Les urgences que nous prenons en charge",
-    subtitle: "Quel que soit votre problème, nous avons la solution.",
+    subtitle: "Quel que soit votre problème, JD Maintenance a la solution.",
     items: [
       { title: "Fuite d'eau", desc: "Fuite sur canalisation, robinet, raccord ou chasse d'eau. Intervention rapide pour limiter les dégâts." },
       { title: "Dégât des eaux", desc: "Coupure d'eau, assèchement et réparation. Nous vous accompagnons pour le constat d'assurance." },
@@ -139,8 +140,8 @@ export const depannage = {
     title: "Comment ça marche ?",
     subtitle: "3 étapes simples pour un dépannage sans stress.",
     items: [
-      { title: "Vous appelez", desc: "Décrivez-nous votre problème par téléphone. Nous évaluons l'urgence et vous donnons un tarif indicatif." },
-      { title: "On intervient sous 2h", desc: "Un technicien qualifié se déplace chez vous avec tout le matériel nécessaire." },
+      { title: "Vous appelez", desc: "Décrivez votre problème par téléphone au 07 69 94 95 28. Jimmy évalue l'urgence et vous donne un tarif indicatif." },
+      { title: "Jimmy intervient rapidement", desc: "Votre artisan plombier se déplace chez vous avec tout le matériel nécessaire." },
       { title: "Problème résolu", desc: "Réparation immédiate dans la majorité des cas. Facture claire, pas de mauvaise surprise." },
     ],
   },
@@ -163,12 +164,12 @@ export const depannage = {
 
 export const plomberie = {
   hero: {
-    title: `Plomberie à ${siteConfig.address.city}`,
+    title: `Plomberie — Nord-Isère`,
     subtitle: "Robinetterie, tuyauterie, mise aux normes, recherche de fuite... Intervention rapide et travail soigné.",
   },
   services: {
     title: "Nos services de plomberie",
-    subtitle: "De l'installation neuve à la réparation, nous intervenons sur tous vos équipements.",
+    subtitle: "De l'installation neuve à la réparation, Jimmy intervient sur tous vos équipements.",
     items: [
       { title: "Robinetterie", desc: "Installation et remplacement de robinets, mitigeurs, douchettes. Toutes marques." },
       { title: "Tuyauterie et raccordements", desc: "Installation, remplacement et réparation de canalisations en cuivre, PER ou multicouche." },
@@ -177,12 +178,12 @@ export const plomberie = {
     ],
   },
   avantages: {
-    title: "Pourquoi nous choisir ?",
+    title: "Pourquoi choisir JD Maintenance ?",
     items: [
-      `Plus de ${siteConfig.yearsExperience} ans d'expérience`,
+      "Artisan plombier qualifié et expérimenté",
       "Matériel professionnel dernière génération",
       "Chantier laissé propre après intervention",
-      "Garantie décennale sur tous les travaux",
+      "Assurance décennale sur tous les travaux",
       "Devis détaillé gratuit sous 48h",
       "Conseil personnalisé et transparent",
     ],
@@ -194,12 +195,12 @@ export const plomberie = {
 
 export const renovationSdb = {
   hero: {
-    title: `Rénovation salle de bain à ${siteConfig.address.city}`,
+    title: `Rénovation salle de bain — Nord-Isère`,
     subtitle: "Douche italienne, rénovation complète, adaptation PMR. Un interlocuteur unique du début à la fin.",
   },
   projets: {
     title: "Nos types de projets",
-    subtitle: "Chaque salle de bain est unique. Nous adaptons nos solutions à vos besoins et votre budget.",
+    subtitle: "Chaque salle de bain est unique. Jimmy adapte ses solutions à vos besoins et votre budget.",
     items: [
       { title: "Douche italienne", desc: "Receveur extra-plat, carrelage grand format, paroi vitrée, pommeau pluie. Design et accessibilité." },
       { title: "Rénovation complète", desc: "Démolition, plomberie, carrelage, sanitaires, meuble vasque, éclairage. Un seul interlocuteur." },
@@ -210,9 +211,9 @@ export const renovationSdb = {
     title: "Notre méthode en 4 étapes",
     subtitle: "Un accompagnement clé en main pour un résultat à la hauteur de vos attentes.",
     items: [
-      { title: "Visite conseil", desc: "Nous venons chez vous pour écouter vos envies, prendre les mesures et vous conseiller." },
+      { title: "Visite conseil", desc: "Jimmy vient chez vous pour écouter vos envies, prendre les mesures et vous conseiller." },
       { title: "Devis détaillé", desc: "Vous recevez un devis précis sous 48h avec le détail des prestations et matériaux." },
-      { title: "Travaux", desc: "Notre équipe réalise les travaux dans les délais convenus. Chantier propre garanti." },
+      { title: "Travaux", desc: "Les travaux sont réalisés dans les délais convenus. Chantier propre garanti." },
       { title: "Réception", desc: "Vérification finale ensemble. Vous ne payez le solde qu'à votre entière satisfaction." },
     ],
   },
@@ -227,22 +228,22 @@ export const renovationSdb = {
 
 export const chauffage = {
   hero: {
-    title: `Chauffage à ${siteConfig.address.city}`,
-    subtitle: "Chaudière gaz, pompe à chaleur, plancher chauffant. Certifié RGE pour bénéficier des aides.",
-    badges: ["Certifié RGE", "Entretien annuel", "Éligible aides"],
+    title: `Chauffage — Nord-Isère`,
+    subtitle: "Chaudière gaz, pompe à chaleur, plancher chauffant. Installation, entretien et dépannage.",
+    badges: ["Entretien annuel", "Toutes marques", "Devis gratuit"],
   },
   solutions: {
     title: "Nos solutions de chauffage",
     subtitle: "Installation, remplacement et dépannage de tous types de systèmes de chauffage.",
     items: [
       { title: "Chaudière gaz condensation", desc: "Installation et remplacement de chaudière gaz dernière génération. Jusqu'à 30% d'économies sur votre facture." },
-      { title: "Pompe à chaleur air-eau", desc: "Solution écologique et économique. Éligible aux aides MaPrimeRénov' et CEE. Nous sommes certifiés RGE." },
+      { title: "Pompe à chaleur air-eau", desc: "Solution écologique et économique. Éligible aux aides MaPrimeRénov' et CEE." },
       { title: "Plancher chauffant", desc: "Confort optimal et diffusion homogène de la chaleur. Idéal en rénovation ou construction neuve." },
     ],
   },
   entretien: {
     title: "Entretien annuel chaudière",
-    subtitle: "L'entretien de votre chaudière est obligatoire chaque année. Nous intervenons sur toutes les marques.",
+    subtitle: "L'entretien de votre chaudière est obligatoire chaque année. Jimmy intervient sur toutes les marques.",
     cardTitle: "Ce qui est inclus",
     prix: "À partir de 89 € TTC",
     items: [
@@ -255,8 +256,8 @@ export const chauffage = {
     ],
   },
   rge: {
-    title: "Certifié RGE — Éligible aux aides de l'État",
-    text: "Notre certification RGE (Reconnu Garant de l'Environnement) vous permet de bénéficier des aides financières pour vos travaux de chauffage : MaPrimeRénov', CEE, éco-prêt à taux zéro.",
+    title: "Éligible aux aides de l'État",
+    text: "Pour vos travaux de chauffage, vous pouvez bénéficier d'aides financières : MaPrimeRénov', CEE, éco-prêt à taux zéro. Contactez Jimmy pour en savoir plus sur votre éligibilité.",
   },
   servicesLies: ["Chauffe-eau", "Dépannage plomberie"],
 };
@@ -265,7 +266,7 @@ export const chauffage = {
 
 export const chauffeEau = {
   hero: {
-    title: `Chauffe-eau à ${siteConfig.address.city}`,
+    title: `Chauffe-eau — Nord-Isère`,
     subtitle: "Électrique, thermodynamique, solaire. Conseil expert pour choisir la solution la plus adaptée à vos besoins.",
   },
   services: {
@@ -275,7 +276,7 @@ export const chauffeEau = {
       { title: "Chauffe-eau électrique", desc: "Remplacement et installation de cumulus électrique, toutes capacités (75L à 300L). Intervention rapide en cas de panne." },
       { title: "Ballon thermodynamique", desc: "Jusqu'à 3x moins d'électricité. Éligible aux aides de l'État. Amortissement en 3 à 5 ans." },
       { title: "Détartrage et entretien", desc: "Prolongez la durée de vie de votre chauffe-eau. Le détartrage permet de maintenir les performances optimales." },
-      { title: "Dépannage", desc: "Plus d'eau chaude ? Fuite sur le groupe de sécurité ? Nous intervenons rapidement pour vous dépanner." },
+      { title: "Dépannage", desc: "Plus d'eau chaude ? Fuite sur le groupe de sécurité ? Jimmy intervient rapidement pour vous dépanner." },
     ],
   },
   comparatif: {
@@ -298,8 +299,8 @@ export const chauffeEau = {
 
 export const contact = {
   hero: {
-    title: "Contactez-nous — Devis gratuit sous 48h",
-    subtitle: "Remplissez le formulaire ou appelez-nous directement. Nous répondons à toutes les demandes.",
+    title: "Contactez JD Maintenance — Devis gratuit sous 48h",
+    subtitle: "Remplissez le formulaire ou appelez Jimmy directement au 07 69 94 95 28.",
   },
   formTitle: "Demandez votre devis gratuit",
   coordonnees: {
@@ -323,13 +324,13 @@ export const contact = {
 
 export const avisClients = {
   hero: {
-    title: "Avis clients — Ce qu'ils disent de nous",
+    title: "Avis clients — Ce qu'ils disent de JD Maintenance",
   },
   ratingIntro: (count: number) => `Basée sur ${count} avis Google`,
   voirGoogle: "Voir tous les avis sur Google",
   cta: {
-    title: "Vous aussi, faites-nous confiance",
-    subtitle: "Demandez votre devis gratuit ou appelez-nous directement.",
+    title: "Vous aussi, faites confiance à Jimmy",
+    subtitle: "Demandez votre devis gratuit ou appelez directement au 07 69 94 95 28.",
   },
 };
 
@@ -337,20 +338,20 @@ export const avisClients = {
 
 export const aPropos = {
   hero: {
-    title: `À propos de ${siteConfig.name}`,
+    title: `À propos de JD Maintenance et Plomberie`,
     subtitle: "Professionnalisme, réactivité et transparence au service de votre confort.",
   },
   histoire: {
     title: "Notre histoire",
     paragraphs: [
-      `Fondé en ${siteConfig.foundedYear} par ${siteConfig.founder}, ${siteConfig.name} est né d'une passion pour le métier et d'une conviction simple : un plombier doit être fiable, réactif et transparent.`,
-      `Après ${siteConfig.yearsExperience} ans d'expérience et plus de ${siteConfig.interventionsCount} interventions, nous restons fidèles à ces valeurs. Notre équipe de techniciens qualifiés intervient chaque jour dans ${siteConfig.address.city} et ses environs pour des dépannages, installations et rénovations.`,
-      "Certifiés RGE et couverts par une assurance décennale, nous accompagnons nos clients dans tous leurs projets de plomberie et de chauffage, du dépannage urgent à la rénovation complète.",
+      `Fondé en 2025 par Jimmy Delannoy, JD Maintenance et Plomberie est né d'une passion pour le métier et d'une conviction simple : un plombier doit être fiable, réactif et transparent.`,
+      `Basé à Saint-Baudille-de-la-Tour, au cœur du Nord-Isère, Jimmy intervient chaque jour dans un rayon de 30 km pour des dépannages, installations et rénovations. De Crémieu à Bourgoin-Jallieu, de Morestel à Pont-de-Chéruy, JD Maintenance est votre artisan plombier de proximité.`,
+      "Couvert par une assurance décennale, Jimmy accompagne ses clients dans tous leurs projets de plomberie et de chauffage, du dépannage urgent à la rénovation complète de salle de bain.",
     ],
   },
   equipe: {
-    title: "Notre équipe",
-    subtitle: "Des professionnels qualifiés et passionnés à votre service.",
+    title: "Votre artisan",
+    subtitle: "Jimmy Delannoy, plombier qualifié et passionné à votre service.",
   },
   chiffres: {
     title: "En quelques chiffres",
@@ -364,18 +365,17 @@ export const aPropos = {
   valeurs: {
     title: "Nos valeurs",
     items: [
-      { title: "Réactivité", desc: `Nous intervenons dans les meilleurs délais. En urgence, comptez moins de ${clientConfig.chiffres.delaiIntervention}.` },
+      { title: "Réactivité", desc: `Jimmy intervient dans les meilleurs délais. En urgence, comptez moins de ${clientConfig.chiffres.delaiIntervention}.` },
       { title: "Transparence", desc: "Devis détaillés, tarifs clairs, pas de mauvaise surprise. Vous savez exactement ce que vous payez." },
-      { title: "Qualité", desc: "Travail soigné, matériaux de qualité, chantier propre. Nous garantissons la qualité de nos prestations." },
+      { title: "Qualité", desc: "Travail soigné, matériaux de qualité, chantier propre. La satisfaction client est la priorité." },
     ],
   },
   certifications: {
     title: "Certifications et assurances",
     subtitle: "Votre tranquillité d'esprit est notre priorité.",
     items: [
-      { label: "Certification RGE QualiPAC", value: siteConfig.rge },
       { label: "Assurance décennale", value: siteConfig.assuranceDecennale },
-      { label: "SIRET", value: siteConfig.siret },
+      { label: "SIREN", value: siteConfig.siret },
     ],
   },
 };
@@ -398,13 +398,13 @@ export const blog = {
 export const realisationsPage = {
   hero: {
     title: "Nos réalisations — Avant / Après",
-    subtitle: "Découvrez nos derniers chantiers en images. Chaque projet est réalisé avec soin et professionnalisme.",
+    subtitle: "Découvrez nos derniers chantiers en images dans le Nord-Isère. Chaque projet est réalisé avec soin et professionnalisme.",
   },
   categories: ["Tout", "Salle de bain", "Plomberie", "Chauffage", "Chauffe-eau"],
   empty: "Aucune réalisation dans cette catégorie pour le moment.",
   cta: {
     title: "Vous avez un projet similaire ?",
-    subtitle: "Contactez-nous pour un devis gratuit et personnalisé.",
+    subtitle: "Contactez Jimmy pour un devis gratuit et personnalisé.",
   },
 };
 
@@ -418,7 +418,7 @@ export const mentionsLegales = {
     labels: {
       raisonSociale: "Raison sociale :",
       siege: "Siège social :",
-      siret: "SIRET :",
+      siret: "SIREN :",
       telephone: "Téléphone :",
       email: "Email :",
       directeurPublication: "Directeur de la publication :",

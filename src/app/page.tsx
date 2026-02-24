@@ -22,7 +22,7 @@ import { homepage, shared } from "@/config/content";
 
 export const metadata: Metadata = generatePageMetadata({
   title: `Plombier à ${siteConfig.address.city} | Dépannage 7j/7 — Devis Gratuit`,
-  description: `${siteConfig.name}, votre plombier à ${siteConfig.address.city}. Dépannage 7j/7, rénovation salle de bain, chauffage. Certifié RGE. Devis gratuit.`,
+  description: `${siteConfig.name}, votre plombier à ${siteConfig.address.city} et Nord-Isère. Dépannage 7j/7, rénovation salle de bain, chauffage. Devis gratuit.`,
   path: "/",
 });
 
